@@ -1,0 +1,5 @@
+pikepdf
+pymupdf
+Pillow
+numpy
+reportlab

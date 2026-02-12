@@ -1,0 +1,36 @@
+[
+    {
+        "file": "10101025282646_Feb2026.pdf",
+        "score": 0,
+        "verdict": "Safe",
+        "flags": []
+    },
+    {
+        "file": "10101025282646_Feb2026_tampered.pdf",
+        "score": 3,
+        "verdict": "Likely Tampered",
+        "flags": [
+            "Metadata mismatch: Creation date (D:20260206010535+05'30') differs from Modification date (D:20260212184236+01'00') by 6 days."
+        ]
+    },
+    {
+        "file": "clean_test.pdf",
+        "score": 0,
+        "verdict": "Safe",
+        "flags": []
+    },
+    {
+        "file": "ela_test.pdf",
+        "score": 0,
+        "verdict": "Safe",
+        "flags": []
+    },
+    {
+        "file": "tampered_test.pdf",
+        "score": 3,
+        "verdict": "Likely Tampered",
+        "flags": [
+            "Suspicious editing tool found in metadata: gimp (Producer: pikepdf 10.3.0, Creator: gimp 2.10)"
+        ]
+    }
+]
